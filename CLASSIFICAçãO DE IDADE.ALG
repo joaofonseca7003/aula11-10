@@ -1,10 +1,10 @@
-algoritmo "Classificação de Idade"
+algoritmo "ClassificaÃ§Ã£o de Idade"
 var
     nome: caractere
     idade: inteiro
     resposta: caractere
 inicio
-
+e noix fpd
     resposta <- "sim"
     enquanto resposta = "sim" faca
 
@@ -15,28 +15,28 @@ inicio
 
      senao
         se idade >= 0 e idade <= 10 entao
-            escreva(nome, " é uma Criança.\n")
+            escreva(nome, " Ã© uma CrianÃ§a.\n")
         senao
             se idade >= 11 e idade <= 18 entao
-                escreva(nome, " é um Adolescente.\n")
+                escreva(nome, " Ã© um Adolescente.\n")
             senao
                 se idade >= 19 e idade <= 25 entao
-                    escreva(nome, " é um Jovem.\n")
+                    escreva(nome, " Ã© um Jovem.\n")
                 senao
                     se idade >= 26 e idade <= 35 entao
-                        escreva(nome, " é um Adulto.\n")
+                        escreva(nome, " Ã© um Adulto.\n")
                     senao
                         se idade >= 36 e idade <= 50 entao
-                            escreva(nome, " é Experiente.\n")
+                            escreva(nome, " Ã© Experiente.\n")
                         senao
-                            escreva(nome, " é um Idoso.\n")
+                            escreva(nome, " Ã© um Idoso.\n")
                         fimse
                     fimse
                 fimse
             fimse
         fimse
 
-        escreva("Deseja continuar? (sim/não): ")
+        escreva("Deseja continuar? (sim/nÃ£o): ")
         leia(resposta)
     fimenquanto
 
