@@ -20,7 +20,7 @@ e noix fpd
             se idade >= 11 e idade <= 18 entao
                 escreva(nome, " é um Adolescente.\n")
             senao
-                se idade >= 19 e idade <= 25 entao
+                se idade >= 18 e idade <= 25 entao
                     escreva(nome, " é um Jovem.\n")
                 senao
                     se idade >= 26 e idade <= 35 entao
